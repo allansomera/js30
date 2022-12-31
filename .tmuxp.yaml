@@ -1,0 +1,23 @@
+session_name: basic 
+windows: 
+  - window_name: server
+    # options:
+    #   automatic-rename: true
+    # panes:
+    #   - shell_command:
+    #     - live-server . 
+    #   - shell_command:
+    #     - npm run scss
+  - window_name: dev
+    options:
+      automatic-rename: true
+    focus: true
+    panes:
+      - shell_command:
+          - n 
+        focus: true
+  - window_name: git
+    options:
+      automatic-rename: true
+    panes:
+      - blank 
